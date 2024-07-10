@@ -11,6 +11,11 @@
 		5285A9E42C39D35E0041927A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9E32C39D35E0041927A /* ContentView.swift */; };
 		5285A9E62C39D35E0041927A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5285A9E52C39D35E0041927A /* Assets.xcassets */; };
 		5285A9E92C39D35E0041927A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5285A9E82C39D35E0041927A /* Preview Assets.xcassets */; };
+		5285A9F02C39D3A60041927A /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9EF2C39D3A60041927A /* HomeView.swift */; };
+		5285A9F22C39D3CB0041927A /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9F12C39D3CB0041927A /* Data.swift */; };
+		5285A9F42C39D7140041927A /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9F32C39D7140041927A /* StoryView.swift */; };
+		5285A9F62C39DBD00041927A /* FavoratesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9F52C39DBD00041927A /* FavoratesView.swift */; };
+		5285A9F82C39DDFF0041927A /* FunFactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5285A9F72C39DDFF0041927A /* FunFactsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5285A9E32C39D35E0041927A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5285A9E52C39D35E0041927A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5285A9E82C39D35E0041927A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5285A9EF2C39D3A60041927A /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5285A9F12C39D3CB0041927A /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		5285A9F32C39D7140041927A /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		5285A9F52C39DBD00041927A /* FavoratesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoratesView.swift; sourceTree = "<group>"; };
+		5285A9F72C39DDFF0041927A /* FunFactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFactsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +63,13 @@
 			children = (
 				5285A9E12C39D35E0041927A /* AboutMeApp.swift */,
 				5285A9E32C39D35E0041927A /* ContentView.swift */,
+				5285A9EF2C39D3A60041927A /* HomeView.swift */,
+				5285A9F12C39D3CB0041927A /* Data.swift */,
 				5285A9E52C39D35E0041927A /* Assets.xcassets */,
 				5285A9E72C39D35E0041927A /* Preview Content */,
+				5285A9F32C39D7140041927A /* StoryView.swift */,
+				5285A9F52C39DBD00041927A /* FavoratesView.swift */,
+				5285A9F72C39DDFF0041927A /* FunFactsView.swift */,
 			);
 			path = AboutMe;
 			sourceTree = "<group>";
@@ -137,8 +152,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5285A9F62C39DBD00041927A /* FavoratesView.swift in Sources */,
+				5285A9F42C39D7140041927A /* StoryView.swift in Sources */,
+				5285A9F02C39D3A60041927A /* HomeView.swift in Sources */,
+				5285A9F82C39DDFF0041927A /* FunFactsView.swift in Sources */,
 				5285A9E42C39D35E0041927A /* ContentView.swift in Sources */,
 				5285A9E22C39D35E0041927A /* AboutMeApp.swift in Sources */,
+				5285A9F22C39D3CB0041927A /* Data.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +292,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AboutMe/Preview Content\"";
+				DEVELOPMENT_TEAM = CD4S7856DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -300,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"AboutMe/Preview Content\"";
+				DEVELOPMENT_TEAM = CD4S7856DT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
